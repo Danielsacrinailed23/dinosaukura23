@@ -1,4 +1,5 @@
 Tạo ip server to connect : 
+
 mkdir ~/playit-old
 cd ~/playit-old
 
