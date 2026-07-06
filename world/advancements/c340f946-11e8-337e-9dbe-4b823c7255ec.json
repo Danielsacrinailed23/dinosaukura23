@@ -87,7 +87,8 @@
       "minecraft:river": "2026-07-04 16:23:37 +0000",
       "minecraft:lush_caves": "2026-07-04 15:49:56 +0000",
       "minecraft:desert": "2026-07-04 15:45:35 +0000",
-      "minecraft:jungle": "2026-07-04 16:23:47 +0000"
+      "minecraft:jungle": "2026-07-04 16:23:47 +0000",
+      "minecraft:warm_ocean": "2026-07-06 15:17:32 +0000"
     },
     "done": false
   },
@@ -3969,6 +3970,78 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2026-07-05 16:44:17 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/common/materials/debris_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2026-07-05 16:44:17 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/netherite": {
+    "criteria": {
+      "has_scrap": "2026-07-05 16:44:17 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/ancient_debris": {
+    "criteria": {
+      "has_scrap": "2026-07-05 16:44:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2026-07-05 16:47:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-07-05 16:48:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-07-05 16:48:56 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/hunter_guidebook": {
+    "criteria": {
+      "has_items": "2026-07-05 16:52:49 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/misc/hunter_guidebook": {
+    "criteria": {
+      "has_the_recipe": "2026-07-05 16:52:49 +0000"
+    },
+    "done": true
+  },
+  "saintsdragons:recipes/nulljaw_binder": {
+    "criteria": {
+      "has_ender_pearl": "2026-07-05 16:52:49 +0000"
+    },
+    "done": true
+  },
+  "celestial_artifacts:recipes/misc/backtrack_mirror": {
+    "criteria": {
+      "has_ender_pearl": "2026-07-05 16:52:49 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/golden_ring": {
+    "criteria": {
+      "has_items": "2026-07-05 16:53:45 +0000"
+    },
+    "done": false
+  },
   "tconstruct:recipes/misc/common/materials/netherite_nugget_from_ingot": {
     "criteria": {
       "has_item": "2026-07-05 16:54:08 +0000"
@@ -3987,33 +4060,15 @@
     },
     "done": true
   },
-  "enigmaticlegacy:recipes/generic/hunter_guidebook": {
-    "criteria": {
-      "has_items": "2026-07-05 16:52:49 +0000"
-    },
-    "done": true
-  },
   "enigmaticlegacy:book/tools/forbidden_axe": {
     "criteria": {
       "has_the_recipe": "2026-07-05 16:54:08 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_ingot": {
-    "criteria": {
-      "has_netherite_scrap": "2026-07-05 16:44:17 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/netherite_helmet_smithing": {
     "criteria": {
       "has_netherite_ingot": "2026-07-05 16:54:08 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/misc/hunter_guidebook": {
-    "criteria": {
-      "has_the_recipe": "2026-07-05 16:52:49 +0000"
     },
     "done": true
   },
@@ -4029,21 +4084,9 @@
     },
     "done": true
   },
-  "enigmaticlegacy:recipes/generic/golden_ring": {
-    "criteria": {
-      "has_items": "2026-07-05 16:53:45 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2026-07-05 16:54:08 +0000"
-    },
-    "done": true
-  },
-  "tconstruct:recipes/misc/common/materials/debris_nugget_from_ingot": {
-    "criteria": {
-      "has_item": "2026-07-05 16:44:17 +0000"
     },
     "done": true
   },
@@ -4059,12 +4102,6 @@
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
-    "criteria": {
-      "fortress": "2026-07-05 16:47:03 +0000"
-    },
-    "done": true
-  },
   "enigmaticlegacy:recipes/generic/monster_charm": {
     "criteria": {
       "has_items": "2026-07-05 16:54:08 +0000"
@@ -4077,29 +4114,11 @@
     },
     "done": false
   },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2026-07-05 16:48:56 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/materials/netherite": {
-    "criteria": {
-      "has_scrap": "2026-07-05 16:44:17 +0000"
-    },
-    "done": true
-  },
   "enigmaticlegacy:recipes/generic/soul_compass": {
     "criteria": {
       "has_items1": "2026-07-05 16:54:08 +0000"
     },
     "done": false
-  },
-  "saintsdragons:recipes/nulljaw_binder": {
-    "criteria": {
-      "has_ender_pearl": "2026-07-05 16:52:49 +0000"
-    },
-    "done": true
   },
   "minecraft:recipes/combat/netherite_sword_smithing": {
     "criteria": {
@@ -4113,21 +4132,9 @@
     },
     "done": true
   },
-  "celestial_artifacts:recipes/misc/backtrack_mirror": {
-    "criteria": {
-      "has_ender_pearl": "2026-07-05 16:52:49 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/netherite_hoe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2026-07-05 16:54:08 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/materials/ancient_debris": {
-    "criteria": {
-      "has_scrap": "2026-07-05 16:44:17 +0000"
     },
     "done": true
   },
@@ -4149,15 +4156,87 @@
     },
     "done": true
   },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2026-07-05 16:48:56 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/netherite_pickaxe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2026-07-05 16:54:08 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/grilled_salmon": {
+    "criteria": {
+      "has_salmon": "2026-07-06 15:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "pufferfish": "2026-07-06 15:15:19 +0000"
+    },
+    "done": true
+  },
+  "legendarysurvivaloverhaul:recipes/misc/purified_water_bottle_from_smelting_potion": {
+    "criteria": {
+      "has_potion": "2026-07-06 15:17:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2026-07-06 15:15:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2026-07-06 15:15:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-07-06 15:15:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2026-07-06 15:15:38 +0000"
+    },
+    "done": true
+  },
+  "legendarysurvivaloverhaul:recipes/misc/purified_water_bottle_from_blasting_potion": {
+    "criteria": {
+      "has_potion": "2026-07-06 15:17:12 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/coarse_dirt_slab": {
+    "criteria": {
+      "has_coarse_dirt": "2026-07-06 15:15:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2026-07-06 15:15:38 +0000"
+    },
+    "done": true
+  },
+  "saintsdragons:recipes/volitans_binder": {
+    "criteria": {
+      "has_volitans_spine": "2026-07-06 15:18:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2026-07-06 15:15:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2026-07-06 15:15:27 +0000"
     },
     "done": true
   },
