@@ -2441,6 +2441,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2026-07-06 03:20:41 +0000",
       "minecraft:skeleton": "2026-07-04 16:06:18 +0000",
       "minecraft:spider": "2026-07-04 16:29:00 +0000",
       "minecraft:creeper": "2026-07-04 16:47:07 +0000",
@@ -4630,9 +4631,10 @@
   },
   "enigmaticlegacy:recipes/generic/golden_ring": {
     "criteria": {
-      "has_parent_recipe": "2026-07-05 16:02:38 +0000"
+      "has_parent_recipe": "2026-07-05 16:02:38 +0000",
+      "has_items": "2026-07-06 02:51:43 +0000"
     },
-    "done": false
+    "done": true
   },
   "enigmaticlegacy:recipes/generic/super_magnet_ring": {
     "criteria": {
@@ -4694,6 +4696,24 @@
     },
     "done": true
   },
+  "celestial_artifacts:recipes/misc/repent_mirror": {
+    "criteria": {
+      "has_echo_shard": "2026-07-05 16:39:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2026-07-05 16:39:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2026-07-05 16:39:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
       "has_blaze_powder": "2026-07-05 16:40:01 +0000"
@@ -4706,21 +4726,9 @@
     },
     "done": true
   },
-  "celestial_artifacts:recipes/misc/repent_mirror": {
-    "criteria": {
-      "has_echo_shard": "2026-07-05 16:39:57 +0000"
-    },
-    "done": true
-  },
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2026-07-05 16:40:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_ingot": {
-    "criteria": {
-      "has_netherite_scrap": "2026-07-05 16:40:02 +0000"
     },
     "done": true
   },
@@ -4736,39 +4744,9 @@
     },
     "done": true
   },
-  "tconstruct:recipes/misc/common/materials/debris_nugget_from_ingot": {
-    "criteria": {
-      "has_item": "2026-07-05 16:40:02 +0000"
-    },
-    "done": true
-  },
   "tconstruct:recipes/brewing/common/slime/magma_cream": {
     "criteria": {
       "has_blaze_powder": "2026-07-05 16:40:01 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/materials/netherite": {
-    "criteria": {
-      "has_scrap": "2026-07-05 16:40:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_glow_ink_sac": "2026-07-05 16:39:57 +0000"
-    },
-    "done": true
-  },
-  "enigmaticlegacy:book/materials/ancient_debris": {
-    "criteria": {
-      "has_scrap": "2026-07-05 16:40:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/recovery_compass": {
-    "criteria": {
-      "has_echo_shard": "2026-07-05 16:39:57 +0000"
     },
     "done": true
   },
@@ -4787,6 +4765,912 @@
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2026-07-05 16:40:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2026-07-05 16:40:02 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/common/materials/debris_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2026-07-05 16:40:02 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/netherite": {
+    "criteria": {
+      "has_scrap": "2026-07-05 16:40:02 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/ancient_debris": {
+    "criteria": {
+      "has_scrap": "2026-07-05 16:40:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/white/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/gem_of_eternal_density": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/combat/dm_helmet": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/catalytic_lens": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-07-06 02:48:33 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/harvest_goddess_band": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/haste_potion": {
+    "criteria": {
+      "has_items": "2026-07-06 03:17:27 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/black_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/dm_shears": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/decorations/relay_mk1": {
+    "criteria": {
+      "has_diamond": "2026-07-06 03:05:29 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/purple/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/lime_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/black/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/light_blue/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/alchemical_coal": {
+    "criteria": {
+      "has_coal": "2026-07-06 02:55:28 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/black_hole_band": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/aeternalis_fuel": {
+    "criteria": {
+      "has_mobius_fuel": "2026-07-06 02:58:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/conversions/alchemical_coal_to_coal": {
+    "criteria": {
+      "has_alchemical_coal": "2026-07-06 02:55:39 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/building_blocks/alchemical_coal_block": {
+    "criteria": {
+      "has_alchemical_coal": "2026-07-06 02:55:37 +0000"
+    },
+    "done": true
+  },
+  "projecte:dark_matter_block": {
+    "criteria": {
+      "dm_block": "2026-07-06 03:06:00 +0000"
+    },
+    "done": true
+  },
+  "projectexpansion:relay": {
+    "criteria": {
+      "relay": "2026-07-06 02:59:51 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/catalytic_lens_alt": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/light_blue_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "projecte:dark_matter": {
+    "criteria": {
+      "dm": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/light_gray/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/combat/dm_leggings": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/conversions/aeternalis_fuel_to_mobius_fuel": {
+    "criteria": {
+      "has_aeternalis_fuel": "2026-07-06 02:58:35 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/redstone/smeltery/scorched/fluid_cannon": {
+    "criteria": {
+      "has_item": "2026-07-06 02:49:59 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/gray_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "celestial_artifacts:recipes/misc/prayer_crown": {
+    "criteria": {
+      "has_redstone_block": "2026-07-06 03:10:36 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/blue/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/common/materials/cobalt_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2026-07-06 02:49:59 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/dm_pick": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "celestial_artifacts:recipes/misc/emerald_ring": {
+    "criteria": {
+      "has_emerald": "2026-07-06 02:49:48 +0000"
+    },
+    "done": true
+  },
+  "constructionwand:recipes/misc/core_destruction": {
+    "criteria": {
+      "has_item": "2026-07-06 03:05:29 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/building_blocks/dark_matter_block": {
+    "criteria": {
+      "has_dark_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:philosophers_stone": {
+    "criteria": {
+      "philosophers_stone": "2026-07-06 02:52:43 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/repair_talisman": {
+    "criteria": {
+      "has_covalence_dust": "2026-07-06 03:03:23 +0000"
+    },
+    "done": true
+  },
+  "celestial_artifacts:recipes/misc/nether_fire": {
+    "criteria": {
+      "has_netherite_ring": "2026-07-06 03:09:28 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/dm_hammer": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "projecte:alchemical_coal": {
+    "criteria": {
+      "alchemical_coal": "2026-07-06 02:55:37 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/dark_matter": {
+    "criteria": {
+      "has_aeternalis": "2026-07-06 02:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-07-06 02:48:33 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/dm_axe": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/green_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "celestial_artifacts:recipes/misc/netherite_ring": {
+    "criteria": {
+      "has_netherite_ring": "2026-07-06 03:09:28 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/conversions/iron_ingot_to_ender_pearl": {
+    "criteria": {
+      "has_iron_ingot": "2026-07-06 03:02:55 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/accessories/golden_ring": {
+    "criteria": {
+      "has_the_recipe": "2026-07-06 02:51:43 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/default/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/yellow/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "projecte:aeternalis_fuel": {
+    "criteria": {
+      "aeternalis_fuel": "2026-07-06 02:58:35 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/void_ring": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/white_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/conversions/charcoal_to_coal": {
+    "criteria": {
+      "has_charcoal": "2026-07-06 03:03:16 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:tools/make_part": {
+    "criteria": {
+      "crafted_part": "2026-07-06 03:07:17 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/gray/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/combat/dm_sword": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/tool_forge": {
+    "criteria": {
+      "cleaver": "2026-07-06 03:07:15 +0000"
+    },
+    "done": false
+  },
+  "tconstruct:recipes/misc/common/materials/cobalt_block_from_ingots": {
+    "criteria": {
+      "has_item": "2026-07-06 02:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/pink/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/zero_ring": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2026-07-06 03:05:29 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/red_matter_alt": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:aeternalis_fuel_block": {
+    "criteria": {
+      "aeternalis_fuel_block": "2026-07-06 02:59:01 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:tools/modified": {
+    "criteria": {
+      "crafted_tool": "2026-07-06 03:10:47 +0000"
+    },
+    "done": true
+  },
+  "projecte:mobius_fuel": {
+    "criteria": {
+      "mobius_fuel": "2026-07-06 02:58:17 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/tinkers_anvil": {
+    "criteria": {
+      "crafted_overworld": "2026-07-06 02:51:56 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/conversions/diamond_to_emerald": {
+    "criteria": {
+      "has_diamond": "2026-07-06 02:52:53 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/red_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/purple_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/conversions/aeternalis_fuel_block_deconstruct": {
+    "criteria": {
+      "has_aeternalis_fuel_block": "2026-07-06 02:59:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2026-07-06 02:48:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2026-07-06 03:03:56 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/conversions/dark_matter_block_deconstruct": {
+    "criteria": {
+      "has_dark_matter_block": "2026-07-06 03:06:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2026-07-06 02:49:48 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/dm_hoe": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/building_blocks/mobius_fuel_block": {
+    "criteria": {
+      "has_mobius_fuel": "2026-07-06 02:58:17 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:tools/tool_smith": {
+    "criteria": {
+      "pickaxe": "2026-07-06 03:07:46 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/evertide_amulet": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/yellow_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2026-07-06 03:10:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/decorations/dm_furnace": {
+    "criteria": {
+      "has_dark_matter": "2026-07-06 03:06:00 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/decorations/condenser_mk1": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/decorations/condenser_mk2": {
+    "criteria": {
+      "has_previous": "2026-07-06 03:04:54 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/orange/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/green/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/conversions/iron_ingot_to_gold_ingot": {
+    "criteria": {
+      "has_iron_ingot": "2026-07-06 03:02:55 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/ignition_ring": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/building_blocks/aeternalis_fuel_block": {
+    "criteria": {
+      "has_aeternalis_fuel": "2026-07-06 02:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/conversions/diamond_to_gold_ingot": {
+    "criteria": {
+      "has_diamond": "2026-07-06 02:52:53 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/combat/dm_chestplate": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/decorations/collector_mk1": {
+    "criteria": {
+      "has_diamond": "2026-07-06 03:05:29 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/orange_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/volcanite_amulet": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2026-07-06 03:16:44 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/desolation_ring": {
+    "criteria": {
+      "has_parent_recipe": "2026-07-06 02:51:43 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/brown_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "projecte:condenser": {
+    "criteria": {
+      "condenser": "2026-07-06 03:04:54 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:tools/tinker_tool": {
+    "criteria": {
+      "crafted_tool": "2026-07-06 03:07:15 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:tools/material_master": {
+    "criteria": {
+      "cobalt": "2026-07-06 03:07:15 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/blue_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/red/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/decorations/alchemical_chest": {
+    "criteria": {
+      "has_covalence_dust": "2026-07-06 03:03:23 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/pink_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/archangel_smite": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:alchemical_chest": {
+    "criteria": {
+      "alch_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/light_gray_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "projecte:collector": {
+    "criteria": {
+      "collector": "2026-07-06 03:04:54 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/conversions/mobius_fuel_to_alchemical_coal": {
+    "criteria": {
+      "has_mobius_fuel": "2026-07-06 02:58:19 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/conversions/coal_to_charcoal": {
+    "criteria": {
+      "has_coal": "2026-07-06 02:55:28 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/lime/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/magenta_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/swiftwolf_rending_gale": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/combat/dm_boots": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/mobius_fuel": {
+    "criteria": {
+      "has_alchemical_coal": "2026-07-06 02:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/magenta/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/decorations/transmutation_table": {
+    "criteria": {
+      "has_philo_stone": "2026-07-06 02:52:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/crying_obsidian": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/repair_talisman_alt": {
+    "criteria": {
+      "has_covalence_dust": "2026-07-06 03:03:23 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/dm_shovel": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/cyan_alchemical_bag": {
+    "criteria": {
+      "has_alchemical_chest": "2026-07-06 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/brown/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "celestial_artifacts:recipes/misc/emerald_bracelet": {
+    "criteria": {
+      "has_emerald": "2026-07-06 02:49:48 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/red_matter": {
+    "criteria": {
+      "has_matter": "2026-07-06 03:05:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-07-06 02:48:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2026-07-06 02:48:33 +0000"
+    },
+    "done": true
+  },
+  "ironshulkerbox:recipes/decorations/shulkerboxes/cyan/obsidian/diamond_obsidian_shulker_box": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 02:59:18 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/decorations/common/cobalt_platform": {
+    "criteria": {
+      "has_bars": "2026-07-06 02:49:59 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/decorations/interdiction_torch": {
+    "criteria": {
+      "has_philo_stone": "2026-07-06 02:52:43 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/divining_rod_1": {
+    "criteria": {
+      "has_covalence_dust": "2026-07-06 03:03:23 +0000"
+    },
+    "done": true
+  },
+  "legendarysurvivaloverhaul:recipes/decorations/cooler": {
+    "criteria": {
+      "has_stone": "2026-07-06 03:01:13 +0000"
     },
     "done": true
   },

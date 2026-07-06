@@ -3,19 +3,19 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "minecraft:overworld", x: -64, y: 68, z: -163, time: 1783270014984L, xRot: 7.5000706f, yRot: 96.92378f }
+	last_seen: { dim: "minecraft:overworld", x: -68, y: 78, z: -165, time: 1783309350261L, xRot: 0.0f, yRot: -90.0f }
 	recording: "none"
 	teleport_history: [
-		{ dim: "minecraft:overworld", x: -62, y: 68, z: -159, time: 1783220150914L }
-		{ dim: "minecraft:overworld", x: -118, y: 128, z: -165, time: 1783220167202L }
-		{ dim: "minecraft:overworld", x: 4456, y: 66, z: 300, time: 1783220272953L, xRot: 21.93787f, yRot: 123.265945f }
-		{ dim: "minecraft:overworld", x: -64, y: 68, z: -159, time: 1783220679736L, xRot: 29.550077f, yRot: -28.7771f }
-		{ dim: "minecraft:overworld", x: -119, y: 61, z: -162, time: 1783220692626L }
-		{ dim: "minecraft:overworld", x: -117, y: 194, z: -163, time: 1783220717209L, xRot: -4.9500585f, yRot: -89.399895f }
 		{ dim: "minecraft:overworld", x: -65, y: 68, z: -162, time: 1783267145994L }
 		{ dim: "minecraft:overworld", x: -74, y: 68, z: -165, time: 1783269774407L, xRot: 1.4064058f, yRot: -152.63623f }
 		{ dim: "minecraft:overworld", x: -71, y: 58, z: -175, time: 1783269824931L, xRot: 5.110551f, yRot: 101.27838f }
 		{ dim: "minecraft:the_nether", x: 23, y: 44, z: -4, time: 1783269895261L, xRot: 11.250156f, yRot: 76.523674f }
+		{ dim: "minecraft:overworld", x: 90, y: 67, z: -291, time: 1783306014626L, xRot: 11.481924f, yRot: 69.97092f }
+		{ dim: "minecraft:overworld", x: 146, y: 60, z: 199, time: 1783307625120L, xRot: -7.208112f, yRot: 9.0277405f }
+		{ dim: "minecraft:overworld", x: -61, y: 67, z: -154, time: 1783307775441L }
+		{ dim: "minecraft:overworld", x: 4391, y: 67, z: 507, time: 1783307836442L, xRot: 15.14996f, yRot: 137.2734f }
+		{ dim: "minecraft:the_nether", x: 10, y: 69, z: -21, time: 1783307989894L }
+		{ dim: "minecraft:the_nether", x: 56, y: 70, z: -327, time: 1783308249613L }
 	]
 	homes: {
 		home: { dim: "minecraft:overworld", x: -66, y: 68, z: -159, time: 1783180478329L, xRot: 15.600042f, yRot: -136.77655f }

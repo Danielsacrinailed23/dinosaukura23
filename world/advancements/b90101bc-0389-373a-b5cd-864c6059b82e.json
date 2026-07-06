@@ -80,9 +80,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2026-07-06 05:29:24 +0000",
+      "minecraft:sunflower_plains": "2026-07-06 05:28:02 +0000",
       "minecraft:bamboo_jungle": "2026-07-05 00:39:18 +0000",
       "minecraft:wooded_badlands": "2026-07-05 06:12:56 +0000",
       "minecraft:badlands": "2026-07-05 15:20:35 +0000",
+      "minecraft:savanna_plateau": "2026-07-06 05:09:55 +0000",
       "minecraft:beach": "2026-07-04 16:30:58 +0000",
       "minecraft:dark_forest": "2026-07-05 15:45:19 +0000",
       "minecraft:stony_peaks": "2026-07-05 15:45:05 +0000",
@@ -90,11 +93,18 @@
       "minecraft:lukewarm_ocean": "2026-07-04 15:43:04 +0000",
       "minecraft:river": "2026-07-04 16:31:53 +0000",
       "minecraft:stony_shore": "2026-07-05 15:45:31 +0000",
+      "minecraft:cold_ocean": "2026-07-06 05:40:01 +0000",
+      "minecraft:forest": "2026-07-06 05:25:48 +0000",
       "minecraft:lush_caves": "2026-07-04 15:49:48 +0000",
+      "minecraft:deep_cold_ocean": "2026-07-06 05:30:40 +0000",
       "minecraft:desert": "2026-07-04 15:32:20 +0000",
       "minecraft:jungle": "2026-07-04 16:32:30 +0000",
       "minecraft:ocean": "2026-07-05 15:45:38 +0000",
-      "minecraft:warm_ocean": "2026-07-05 00:38:21 +0000"
+      "minecraft:warm_ocean": "2026-07-05 00:38:21 +0000",
+      "minecraft:deep_lukewarm_ocean": "2026-07-06 04:44:17 +0000",
+      "minecraft:windswept_gravelly_hills": "2026-07-06 05:42:57 +0000",
+      "minecraft:savanna": "2026-07-06 04:49:39 +0000",
+      "minecraft:plains": "2026-07-06 04:51:12 +0000"
     },
     "done": false
   },
@@ -1998,11 +2008,14 @@
       "minecraft:blaze": "2026-07-04 16:45:48 +0000",
       "minecraft:pillager": "2026-07-05 00:51:34 +0000",
       "minecraft:skeleton": "2026-07-04 16:12:02 +0000",
+      "minecraft:elder_guardian": "2026-07-06 05:34:36 +0000",
       "minecraft:ghast": "2026-07-05 07:38:16 +0000",
       "minecraft:hoglin": "2026-07-05 07:43:21 +0000",
+      "minecraft:guardian": "2026-07-06 05:31:02 +0000",
       "minecraft:spider": "2026-07-05 06:33:06 +0000",
       "minecraft:creeper": "2026-07-05 09:34:02 +0000",
       "minecraft:phantom": "2026-07-05 02:34:28 +0000",
+      "minecraft:zombified_piglin": "2026-07-06 06:55:15 +0000",
       "minecraft:witch": "2026-07-05 00:54:46 +0000",
       "minecraft:wither_skeleton": "2026-07-04 16:53:09 +0000",
       "minecraft:husk": "2026-07-05 06:13:49 +0000",
@@ -5974,9 +5987,10 @@
   },
   "enigmaticlegacy:recipes/generic/magnet_ring": {
     "criteria": {
-      "has_parent_recipe": "2026-07-05 14:36:17 +0000"
+      "has_parent_recipe": "2026-07-05 14:36:17 +0000",
+      "has_items": "2026-07-06 03:54:52 +0000"
     },
-    "done": false
+    "done": true
   },
   "enigmaticlegacy:recipes/generic/golden_ring": {
     "criteria": {
@@ -6201,15 +6215,16 @@
     },
     "done": true
   },
-  "enigmaticlegacy:recipes/generic/super_magnet_ring": {
-    "criteria": {
-      "has_items": "2026-07-05 16:46:20 +0000"
-    },
-    "done": false
-  },
   "enigmaticlegacy:book/accessories/mining_charm": {
     "criteria": {
       "has_the_recipe": "2026-07-05 16:46:06 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/super_magnet_ring": {
+    "criteria": {
+      "has_parent_recipe": "2026-07-06 03:54:52 +0000",
+      "has_items": "2026-07-05 16:46:20 +0000"
     },
     "done": true
   },
@@ -6228,6 +6243,288 @@
   "enigmaticlegacy:book/brewing/recall_potion": {
     "criteria": {
       "has_items": "2026-07-05 16:46:20 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/fermentation_barrel": {
+    "criteria": {
+      "has_barrel": "2026-07-06 03:54:27 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/accessories/magnet_ring": {
+    "criteria": {
+      "has_the_recipe": "2026-07-06 03:54:52 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/accessories/super_magnet_ring": {
+    "criteria": {
+      "has_the_recipe": "2026-07-06 03:54:52 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/conversions/emerald_to_diamond": {
+    "criteria": {
+      "has_emerald": "2026-07-06 04:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2026-07-06 04:41:48 +0000"
+    },
+    "done": true
+  },
+  "vinery:main/fruits_of_the_field": {
+    "criteria": {
+      "fruits_of_the_field": "2026-07-06 04:51:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2026-07-06 04:53:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2026-07-06 04:53:35 +0000"
+    },
+    "done": true
+  },
+  "celestial_core:recipes/misc/earth_core": {
+    "criteria": {
+      "has_crying_obsidian": "2026-07-06 04:53:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-07-06 05:17:31 +0000"
+    },
+    "done": true
+  },
+  "jurassicsaga:recipes/decorations/iron_pillar": {
+    "criteria": {
+      "has_iron_block": "2026-07-06 05:17:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-07-06 05:17:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-07-06 05:17:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-07-06 05:17:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-07-06 05:17:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-07-06 05:17:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-07-06 05:17:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2026-07-06 05:17:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2026-07-06 05:31:05 +0000"
+    },
+    "done": true
+  },
+  "celestial_artifacts:recipes/misc/sea_god_crown": {
+    "criteria": {
+      "has_prismarine_shard": "2026-07-06 05:31:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2026-07-06 05:31:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2026-07-06 05:31:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2026-07-06 05:32:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2026-07-06 05:32:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2026-07-06 05:32:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2026-07-06 05:32:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2026-07-06 05:33:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2026-07-06 05:33:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2026-07-06 05:33:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2026-07-06 05:33:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2026-07-06 05:34:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-07-06 05:37:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-07-06 05:37:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2026-07-06 05:37:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2026-07-06 05:37:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2026-07-06 05:37:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2026-07-06 05:37:44 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/misc/enchantment_transposer": {
+    "criteria": {
+      "has_the_recipe": "2026-07-06 05:39:14 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/curse_transposer": {
+    "criteria": {
+      "has_parent_recipe": "2026-07-06 05:39:14 +0000"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:recipes/generic/enchantment_transposer": {
+    "criteria": {
+      "has_items": "2026-07-06 05:39:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2026-07-06 05:39:14 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2026-07-06 06:13:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2026-07-06 06:57:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2026-07-06 06:13:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2026-07-06 06:17:32 +0000"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/brewing/molten_heart_potion": {
+    "criteria": {
+      "has_items": "2026-07-06 07:25:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2026-07-06 06:13:49 +0000"
     },
     "done": true
   },
