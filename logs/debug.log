@@ -10312,3 +10312,10 @@ com.google.gson.JsonParseException: index object missing type field
 [07Jul2026 15:28:29.187] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [07Jul2026 15:33:29.180] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [07Jul2026 15:33:29.194] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Jul2026 15:38:29.170] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Jul2026 15:38:29.183] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Jul2026 15:43:29.164] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Jul2026 15:43:29.179] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Jul2026 15:46:37.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Jul2026 15:46:37.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07Jul2026 15:46:37.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds

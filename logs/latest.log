@@ -2304,3 +2304,6 @@ com.google.gson.JsonParseException: index object missing type field
 [07Jul2026 15:25:17.601] [Server thread/INFO] [Enigmatic Legacy/INFO]: Synchronizing omniconfig files to Banhmat...
 [07Jul2026 15:25:17.601] [Server thread/INFO] [Enigmatic Legacy/INFO]: Sending data for enigmaticlegacy-common.omniconf
 [07Jul2026 15:25:17.602] [Server thread/INFO] [Enigmatic Legacy/INFO]: Granting starter gear to Banhmat
+[07Jul2026 15:46:37.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Jul2026 15:46:37.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07Jul2026 15:46:37.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
