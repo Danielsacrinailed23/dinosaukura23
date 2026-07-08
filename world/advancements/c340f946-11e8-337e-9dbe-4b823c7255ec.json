@@ -4162,21 +4162,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/grilled_salmon": {
-    "criteria": {
-      "has_salmon": "2026-07-06 15:15:38 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/fishy_business": {
     "criteria": {
       "pufferfish": "2026-07-06 15:15:19 +0000"
-    },
-    "done": true
-  },
-  "legendarysurvivaloverhaul:recipes/misc/purified_water_bottle_from_smelting_potion": {
-    "criteria": {
-      "has_potion": "2026-07-06 15:17:12 +0000"
     },
     "done": true
   },
@@ -4186,45 +4174,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
-    "criteria": {
-      "has_salmon": "2026-07-06 15:15:38 +0000"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/cooking/fish_stew": {
     "criteria": {
       "has_any_ingredient": "2026-07-06 15:15:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon": {
-    "criteria": {
-      "has_salmon": "2026-07-06 15:15:38 +0000"
-    },
-    "done": true
-  },
-  "legendarysurvivaloverhaul:recipes/misc/purified_water_bottle_from_blasting_potion": {
-    "criteria": {
-      "has_potion": "2026-07-06 15:17:12 +0000"
-    },
-    "done": true
-  },
-  "vinery:recipes/coarse_dirt_slab": {
-    "criteria": {
-      "has_coarse_dirt": "2026-07-06 15:15:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon_from_smoking": {
-    "criteria": {
-      "has_salmon": "2026-07-06 15:15:38 +0000"
-    },
-    "done": true
-  },
-  "saintsdragons:recipes/volitans_binder": {
-    "criteria": {
-      "has_volitans_spine": "2026-07-06 15:18:39 +0000"
     },
     "done": true
   },
@@ -4237,6 +4189,60 @@
   "minecraft:recipes/food/cooked_cod": {
     "criteria": {
       "has_cod": "2026-07-06 15:15:27 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/grilled_salmon": {
+    "criteria": {
+      "has_salmon": "2026-07-06 15:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2026-07-06 15:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2026-07-06 15:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2026-07-06 15:15:38 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/coarse_dirt_slab": {
+    "criteria": {
+      "has_coarse_dirt": "2026-07-06 15:15:49 +0000"
+    },
+    "done": true
+  },
+  "legendarysurvivaloverhaul:recipes/misc/purified_water_bottle_from_smelting_potion": {
+    "criteria": {
+      "has_potion": "2026-07-06 15:17:12 +0000"
+    },
+    "done": true
+  },
+  "legendarysurvivaloverhaul:recipes/misc/purified_water_bottle_from_blasting_potion": {
+    "criteria": {
+      "has_potion": "2026-07-06 15:17:12 +0000"
+    },
+    "done": true
+  },
+  "saintsdragons:recipes/volitans_binder": {
+    "criteria": {
+      "has_volitans_spine": "2026-07-06 15:18:39 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2026-07-07 18:18:13 +0000"
     },
     "done": true
   },
